@@ -1,0 +1,29 @@
+
+div>input{
+    height:7vh;
+    width: 80%;
+    border:3px solid rgb(31, 180, 243);
+    border-radius:1em 0em 1em 0em;
+    text-align: center;
+    outline:2px solid rgb(35, 197, 247);
+    margin: 0 auto;
+}
+#name,#password,#email,#gender,#submit{
+   font-size:20px;
+   display: flex;
+   flex-direction:row;
+   justify-items: center;
+}
+#submit{
+    width: 100%;
+}
+#name,#password,#email,#gender{
+    box-shadow: 1px 1px  ;
+    
+}
+.form{
+    padding-bottom:3%;
+}
+.bbb{
+      background: skyblue;
+}
